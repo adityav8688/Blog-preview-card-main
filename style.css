@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-size: 15px;
+    font-weight: 500, 800;
+    font-family: 'Figtree', sans-serif;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 19.5rem;
+    max-height: 28rem;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    border: 0.02rem solid hsl(0, 0%, 0%);
+    box-shadow: 7px 7px 1px rgba(0,0,0,1);
+}
+#svgimg{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+#learn{
+    background-color: hsl(47, 88%, 63%);
+    width: 5rem;
+    height: 1.8rem;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#profileimg{
+    width: 2rem;
+    border-radius: 50%;
+}
+#info{
+    color: hsl(0, 0%, 42%);
+    padding-right: 1rem;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+}
+a:hover{
+    color: hsl(47, 88%, 63%);
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}

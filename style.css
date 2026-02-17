@@ -22,6 +22,10 @@ body{
     width: 100%;
     border-radius: 0.5rem;
 }
+.colorblack{
+    color: hsl(0, 0%, 0%);
+    
+}
 #learn{
     background-color: hsl(47, 88%, 63%);
     width: 5rem;
@@ -40,15 +44,14 @@ body{
     color: hsl(0, 0%, 42%);
     padding-right: 1rem;
 }
-a{
-    text-decoration: none;
-    color: hsl(0, 0%, 0%);
-}
-a:hover{
+.card:hover{
     color: hsl(47, 88%, 63%);
+    box-shadow: 15px 15px 1px hsl(0,0%,0%);
+
 }
 .container{
     display: flex;
     align-items: center;
     gap: 0.7rem;
+    color: black;
 }
